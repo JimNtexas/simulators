@@ -709,7 +709,7 @@ public class OnboardingServiceImpl extends ServiceCommonImpl implements Onboardi
 						if (getState().equals(OnboardingState.PERSONAL_AP_CONFIGURED_VALIDATING)) {
 							setState(OnboardingState.PERSONAL_AP_CONFIGURED_VALIDATED);
 							saveNetworkId();
-							AboutServiceImpl.getInstance().announce(); // send an announcement after onboarding succeeded. ISTA-13
+							AboutServiceImpl.getInstance().announce(); // send an announcement after onboarding succeeded.
 						}
 					}
 				}
