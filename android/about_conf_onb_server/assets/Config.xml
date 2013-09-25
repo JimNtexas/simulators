@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+   <!--
+
+        Copyright 2013, Qualcomm Innovation Center, Inc.
+
+        All rights reserved.
+        This file is licensed under the 3-clause BSD license in the NOTICE.txt
+        file for this project. A copy of the 3-clause BSD license is found at:
+
+        http://opensource.org/licenses/BSD-3-Clause.
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the license is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the license for the specific language governing permissions and
+        limitations under the license.
+
+  -->
+
+<config>
+	<keys>
+		<key public="n" announce="n" writable="n" name="Passphrase"> 
+		    <value>000000</value> 
+		</key>		
+		<key name="DefaultLanguage"  writable="y"  announce="y" public="y">
+    			<value>en</value>	
+		</key>
+		<key name="DeviceName" writable="y"  announce="y" public="y">
+			<value language="en">Hello</value>
+			<value language="fr">Bonjour</value>
+			<value language="he">שלום</value>
+			<value language="ar">مرحبا</value>
+		</key>
+		<key name="DeviceId" writable="n"  announce="y" public="y">
+			<value>4564545455454</value>
+		</key>
+		<key name="AppName" writable="n"  announce="y" public="y">
+			<value language="en">Test Server(en)</value>
+			<value language="fr">Test Server(fr)</value>
+			<value language="he">Test Server(he)</value>
+			<value language="ar">Test Server(ar)</value>
+		</key>
+		<key name="Description" writable="n"  announce="y" public="y">			
+			<value language="en">The best refrigerator</value>
+		    <value language="fr">La meilleure réfrigérateur</value>
+			<value language="he">המקרר הטוב ביותר</value>
+			<value language="ar">أفضل ثلاجة</value>
+		</key>				
+		
+		<key name="Manufacturer" writable="n"  announce="y" public="y" >
+			<value language="en">IsraelHQ(EN)</value>
+			<value language="fr">ISraelHQ(FR)</value>
+			<value language="he">ISraelHQ(HE)</value>
+			<value language="ar">ISraelHQ(AR)</value>
+		</key>
+		
+		<key name="ModelNumber" writable="n"  announce="y" public="y" >
+			<value>1.1.12.4</value>
+		</key>
+		<key name="DateOfManufacture" writable="n"  announce="y" public="y" >
+			<value>10/10/2014</value>
+		</key>
+		<key name="SoftwareVersion" writable="n"  announce="y" public="y" >
+			<value>2.2.2.2</value>
+		</key>
+		<key name="AJSoftwareVersion" writable="n"  announce="n" public="y" >
+			<value>3.3.1</value>
+		</key>
+		<key name="HardwareVersion" writable="n"  announce="y"  public="y">
+			<value>3.3.3.3</value>
+		</key>
+		<key name="SupportUrl" writable="n"  announce="y"  public="y">
+			<value  >http://www.alljoyn.org</value>
+		</key>
+	</keys>
+</config>
